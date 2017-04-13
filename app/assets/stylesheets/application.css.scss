@@ -18,18 +18,26 @@
 @import 'bootstrap';
 
 h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
-    background: #4CA1AF;  /* fallback for old browsers */
-    background: -webkit-gradient(linear, 100% 0, 0 0, from(#C4E0E5), to(#4CA1AF));
-    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
-    background: -moz-linear-gradient(to right, #C4E0E5, #4CA1AF);
-    background: -o-linear-gradient(to right, #C4E0E5, #4CA1AF);
-    background: linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.home-callout, .navbar {
+  //Gradient provided by @_ighosh at uiGradients.com
+  background: #4CA1AF;  /* fallback for old browsers */
+  background: -webkit-gradient(linear, 100% 0, 0 0, from(#C4E0E5), to(#4CA1AF));
+  background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+  background: -moz-linear-gradient(to right, #C4E0E5, #4CA1AF);
+  background: -o-linear-gradient(to right, #C4E0E5, #4CA1AF);
+  background: linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
-    border: none;
+  border: none;
+}
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
