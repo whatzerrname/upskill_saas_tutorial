@@ -28,11 +28,11 @@ h1, h2, h3 {
 .home-callout, .navbar {
   //Gradient provided by @_ighosh at uiGradients.com
   background: #4CA1AF;  /* fallback for old browsers */
-  background: -webkit-gradient(linear, 100% 0, 0 0, from(#C4E0E5), to(#4CA1AF));
-  background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
-  background: -moz-linear-gradient(to right, #C4E0E5, #4CA1AF);
-  background: -o-linear-gradient(to right, #C4E0E5, #4CA1AF);
-  background: linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-gradient(linear, 100% 0, 0 0, from(#4CA1AF), to(#C4E0E5));
+  background: -webkit-linear-gradient(to right, #4CA1AF, #C4E0E5);
+  background: -moz-linear-gradient(to right, #4CA1AF, #C4E0E5);
+  background: -o-linear-gradient(to right, #4CA1AF, #C4E0E5);
+  background: linear-gradient(to right, #4CA1AF, #C4E0E5);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // Nav Styles
@@ -51,7 +51,7 @@ h1, h2, h3 {
 .navbar-default .navbar-toggle {
   border: 2px solid white;
   &:hover, &:focus {
-    background-color: #C4E0E5;
+    background-color: #4CA1AF;
   }
 }
 
