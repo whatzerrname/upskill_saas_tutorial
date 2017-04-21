@@ -1,5 +1,5 @@
 /* global $, Stripe */
-//Document ready.
+//Document ready, on turbolinks load
 $(document).on('turbolinks:load', function(){
   var theForm = $('#pro_form');
   var submitBtn = $('#form-signup-btn');
@@ -46,6 +46,7 @@ $(document).on('turbolinks:load', function(){
     }
     return false;
   });
+  
   //Stripe will return a card token.
   function stripeResponseHandler(status, response) {
     //Get the token from the response.
