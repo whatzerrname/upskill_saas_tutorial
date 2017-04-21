@@ -1,9 +1,5 @@
 /* global $, Stripe */
-<<<<<<< HEAD
-//Document ready, on turbolinks load
-=======
 //Document ready.
->>>>>>> a883391824e850ae9e4c1956298f680541a9957b
 $(document).on('turbolinks:load', function(){
   var theForm = $('#pro_form');
   var submitBtn = $('#form-signup-btn');
