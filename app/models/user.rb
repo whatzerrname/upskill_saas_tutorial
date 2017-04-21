@@ -3,7 +3,9 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+  
   belongs_to :plan
+  has_one :profile
   
   attr_accessor :stripe_card_token
   # If pro user passes validations (email, password, etc.)
