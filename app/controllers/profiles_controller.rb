@@ -1,5 +1,5 @@
 class ProfilesController < ApplicationController
-  # GET to /users/:user_id/profile/new
+  # GET from /users/:user_id/profile/new
   def new
     # Render blank profile details form
     @profile = Profile.new
@@ -17,6 +17,12 @@ class ProfilesController < ApplicationController
     else
       render action: :new
     end
+  end
+  
+  # GET from /users/:user_id/profile/edit
+  def edit
+    @user = User.find(params[:user_id])
+    @profile = @user.profile
   end
   
   private
